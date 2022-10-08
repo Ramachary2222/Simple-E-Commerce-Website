@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .nav{
     background-color: white;
     z-index:9;
@@ -18,11 +20,11 @@
 .nav_side{
    
     float:right;
-    margin-left: 300px;
+    margin-left: 250px;
     padding: 10px;
     padding-right: 10px;
     padding-top: 30px;
-    width:50%;
+    width:70%;
    
 }
 .nav_side a{
@@ -40,10 +42,9 @@ a:hover{
     color: orange;
 }
 .main{
-    background-image: url("images/background.jpg");
-    background-repeat: repeat-y;
+    background-image: url("images/background.png");
     background-attachment: fixed;
-    background-size: cover;
+    background-size:contain;
     height: 85vh;
     background-blend-mode:darken;
 }
